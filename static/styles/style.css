@@ -1,0 +1,48 @@
+html, body {
+    margin: 0px;
+    background-color: rgba(var(--b3f,250,250,250),1);
+}
+
+.content {
+    margin-left: 10%;
+    margin-top: 20px;
+}
+
+.nav-wrapper {
+    border-bottom: 1px solid #dbdbdb;
+    height: 54px;
+}
+
+.search {
+    border-radius: 3px;
+    border: 1px solid #dbdbdb;
+    height: 30px;
+    background: left/10% url(/static/images/search.png) no-repeat scroll;
+    padding-left: 25px;
+    text-align: center;
+    background-position: 60px;
+}
+
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 15px;
+}
+
+.control-actions {
+    width: 22px;
+    height: 22px;
+    margin-left: 10px;
+}
+
+.profile {
+    border-radius: 12px;
+}
+
+.status-wrapper {
+    height: 100px;
+    width: 55%;
+    border: 1px solid #dbdbdb;
+    border-radius: 3px;
+}
